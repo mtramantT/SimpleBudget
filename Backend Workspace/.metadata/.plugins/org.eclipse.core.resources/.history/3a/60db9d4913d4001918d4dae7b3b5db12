@@ -1,0 +1,5 @@
+package com.budget.Models;
+
+public class Receipt {
+
+}
