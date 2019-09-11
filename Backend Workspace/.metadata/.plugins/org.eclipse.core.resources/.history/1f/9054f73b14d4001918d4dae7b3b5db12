@@ -1,0 +1,9 @@
+package com.budget.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.budget.Models.Receipt;
+
+public interface RecieptRepo extends JpaRepository<Receipt, Integer>{
+
+}
