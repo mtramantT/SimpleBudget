@@ -1,7 +1,5 @@
 package com.budget.Models;
 
-import java.sql.Timestamp;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,16 +7,16 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class Receipt {
-
+public class Income {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="RECEIPT_ID")
-	private Integer RECEIPT_ID;
-//	@Column(name="RECEIPT_DATE")
-//	private Timestamp RECEIPT_DATE;
-	@Column(name="RECEIPT_AMOUNT")
-	private Timestamp RECEIPT_AMOUNT;
-	
-	
+	@Column(name="INCOME_ID")
+	private Integer incomeId;
+	@Column(name="INCOME_NAME")
+	private String name;
+	@Column(name="INCOME_TYPE")
+	private Boolean salary;
+	@Column(name="INCOME_AMOUNT")
+	private Float incomeAmount;
+		
 }
