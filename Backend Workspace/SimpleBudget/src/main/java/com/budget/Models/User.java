@@ -1,5 +1,6 @@
 package com.budget.Models;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -8,11 +9,17 @@ import javax.persistence.Id;
 public class User {
 	@Id//used to indicate field is the primary key
 	@GeneratedValue//used to indicate that it will be auto generated
+	@Column(name="USER_ID")
 	private Integer userId;
+	@Column(name="FIRST_NAME")
 	private String firstName;
+	@Column(name="LAST_NAME")
 	private String lastName;
+	@Column(name="USERNAME")
 	private String userName;
+	@Column(name="PASSWORD")
 	private String password;
+	@Column(name="EMAIL")
 	private String email;
 	
 	public Integer getUserId() {

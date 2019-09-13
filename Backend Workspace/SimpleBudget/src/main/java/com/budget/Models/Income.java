@@ -18,6 +18,5 @@ public class Income {
 	private Boolean salary;
 	@Column(name="INCOME_AMOUNT")
 	private Float incomeAmount;
-	
-	
+		
 }
