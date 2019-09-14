@@ -1,0 +1,35 @@
+<form action="" [formGroup]="form" method="POST">
+    <div class="form_group">
+        <label for="username">Username</label>
+        <input 
+            formControlName="username"
+            id="username"
+            type="text" 
+            class="form_control">
+        <div 
+            *ngIf="username.touched && username.invalid" class="alert alert-danger">
+                <div *ngIf="username.errors.required">Username is required!</div>
+                <div *ngIf="username.errors.minLength">Username should be minimum {{username.errors.minLength.requiredLength}} characters!</div>
+                <div *ngIf="username.errors.cannotContainSpace">Username cannotContainSpace!</div>
+        </div>
+    </div>
+    <div class="form_group">
+        <label for="password">Password</label>
+        <input 
+            formControlName="password"
+            id="password"
+            type="text" 
+            class="form_control">
+        <div class="alert alert-danger">Password is required!</div>
+    </div>
+    <div class="form_group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input 
+            formControlName="confirmPassword"
+            id="confirmPassword"
+            type="text" 
+            class="form_control">
+        <div class="alert alert-danger"></div>
+    </div>
+    <button class="btn btn-primary">Register</button>
+</form>

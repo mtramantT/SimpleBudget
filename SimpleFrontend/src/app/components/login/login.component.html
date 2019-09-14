@@ -1,0 +1,21 @@
+<form [formGroup]="form" action="" method="POST">
+    <div class="form_group">
+        <label for="username"></label>
+        <input 
+            formControlName="username"
+            id="username"
+            type="text" 
+            class="form_control">
+        <div class="alert alert-danger">Username is Required</div>
+    </div>
+    <div class="form_group">
+        <label for="password"></label>
+        <input 
+            formControlName="password"
+            id="password"
+            type="text"
+            class="form_control">
+        <div class="alert alert-danger">Password is Required</div>
+    </div>
+    <button class="btn btn-primary" type="submit">Login</button>
+</form>
