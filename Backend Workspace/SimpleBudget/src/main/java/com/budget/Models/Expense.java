@@ -15,47 +15,55 @@ public class Expense {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="E_ID")
-	private Integer Expense_ID;
-	@Column(name="E_Name")
-	private String E_Name;
-	@Column(name="E_Amount")
-	private Float E_Amount;
-	@Column(name="Period")
-	private String Period;
- 
-	public Integer getExpense_ID() {
-		return Expense_ID;
+	@Column(name="EXPENSE_ID")
+	private Integer expenseId;
+	@Column(name="EXPENSE_Name")
+	private String expenseName;
+	@Column(name="EXPENSE_Amount")
+	private Float expenseAmount;
+	@Column(name="EXPENSE_Period")
+	private String expensePeriod;
+	@Column(name="USER_ID")
+	private Integer userId;
+	
+	
+	public Integer getExpenseId() {
+		return expenseId;
 	}
-	public void setExpense_ID(Integer expense_ID) {
-		Expense_ID = expense_ID;
+	public void setExpenseId(Integer expenseId) {
+		this.expenseId = expenseId;
 	}
-	public String getE_Name() {
-		return E_Name;
+	public String getExpenseName() {
+		return expenseName;
 	}
-	public void setE_Name(String e_Name) {
-		E_Name = e_Name;
+	public void setExpenseName(String expenseName) {
+		this.expenseName = expenseName;
 	}
-	public Float getE_Amount() {
-		return E_Amount;
+	public Float getExpenseAmount() {
+		return expenseAmount;
 	}
-	public void setE_Amount(Float e_Amount) {
-		E_Amount = e_Amount;
+	public void setExpenseAmount(Float expenseAmount) {
+		this.expenseAmount = expenseAmount;
 	}
-	public String getPeriod() {
-		return Period;
+	public String getExpensePeriod() {
+		return expensePeriod;
 	}
-	public void setPeriod(String period) {
-		Period = period;
+	public void setExpensePeriod(String expensePeriod) {
+		this.expensePeriod = expensePeriod;
 	}
-	@Override
-	public String toString() {
-		return "Expense [Expense_ID=" + Expense_ID + ", E_Name=" + E_Name + ", E_Amount=" + E_Amount + ", Period="
-				+ Period + "]";
+	public Integer getUserId() {
+		return userId;
+	}
+	public void setUserId(Integer userId) {
+		this.userId = userId;
 	}
 	
- 
-	 
+	@Override
+	public String toString() {
+		return "Expense [expenseId=" + expenseId + ", expenseName=" + expenseName + ", expenseAmount=" + expenseAmount
+				+ ", expensePeriod=" + expensePeriod + ", userId=" + userId + "]";
+	}
+	
 	
 	
 
