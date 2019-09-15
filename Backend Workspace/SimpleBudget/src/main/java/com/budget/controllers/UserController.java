@@ -22,7 +22,7 @@ import com.budget.repo.UserRepository;
 @RequestMapping("/users")
 public class UserController {
 	@Autowired
-	private UserRepository usersRepository;
+	private UserRepository ur;
 	
 	@GetMapping(value="/hello")
 	public String sayHello() {
@@ -31,17 +31,21 @@ public class UserController {
 	
 	@GetMapping(value="/all")
 	public List<User> findAll(){
-		return usersRepository.findAll();
+		return ur.findAll();
 	}
 	
 	@GetMapping(value="/{userId}")
 	public Optional<User> findById(@PathVariable Integer userId){
-		return usersRepository.findById(userId);
+		return ur.findById(userId);
+	}
+	@GetMapping(value="/{username}")
+	public String findByUsername(@PathVariable String username) {
+		return ur.findByUsername(username);
 	}
 	
 	@PostMapping(value="/save")
 	public Optional<User> save(@RequestBody User users) {
-		usersRepository.save(users);
-		return usersRepository.findById(users.getUserId());
+		ur.save(users);
+		return ur.findById(users.getUserId());
 	}
 }
