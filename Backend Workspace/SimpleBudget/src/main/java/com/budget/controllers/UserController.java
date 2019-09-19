@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.budget.Models.User;
@@ -34,7 +35,7 @@ public class UserController {
 		return ur.findAll();
 	}
 	
-	@GetMapping(value="/{userId}")
+	@GetMapping(value="/id/{userId}")
 	public Optional<User> findById(@PathVariable Integer userId){
 		return ur.findById(userId);
 	}
@@ -47,5 +48,12 @@ public class UserController {
 	public Optional<User> save(@RequestBody User users) {
 		ur.save(users);
 		return ur.findById(users.getUserId());
+	}
+	
+	@PostMapping(value="/login")
+	@ResponseBody
+	public User login(@RequestBody User user) {
+		System.out.println("in controller");
+		return user;
 	}
 }

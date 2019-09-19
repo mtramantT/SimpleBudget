@@ -60,15 +60,15 @@ public class User {
 	}
 	@Override
 	public String toString() {
-		return "User [userId=" + userId + ", firstName=" + firstName + ", lastName=" + lastName + ", userName="
+		return "User [userId=" + userId + ", firstName=" + firstName + ", lastName=" + lastName + ", username="
 				+ username + ", password=" + password + ", email=" + email + "]";
 	}
-	public User(Integer userId, String firstName, String lastName, String userName, String password, String email) {
+	public User(Integer userId, String firstName, String lastName, String username, String password, String email) {
 		super();
 		this.userId = userId;
 		this.firstName = firstName;
 		this.lastName = lastName;
-		this.username = userName;
+		this.username = username;
 		this.password = password;
 		this.email = email;
 	}
@@ -76,9 +76,9 @@ public class User {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public User(String userName, String password) {
+	public User(String username, String password) {
 		super();
-		this.username = userName;
+		this.username = username;
 		this.password = password;
 	}
 }
