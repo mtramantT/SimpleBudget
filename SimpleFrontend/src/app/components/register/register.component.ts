@@ -1,3 +1,4 @@
+import { RegisterValidators } from './../../custom-validators/registervalidators';
 import { UsernameValidators } from './../../custom-validators/username.validators';
 import { FormGroup, FormControl, Validator, Validators } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';

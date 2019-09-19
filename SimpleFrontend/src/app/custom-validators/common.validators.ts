@@ -1,3 +1,5 @@
+import { AbstractControl, ValidationErrors } from '@angular/forms';
+
 export class CommonValidators{
 
     static cannotContainSpace(control: AbstractControl) : ValidationErrors | null{

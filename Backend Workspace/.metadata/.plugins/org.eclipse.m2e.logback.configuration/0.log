@@ -1633,3 +1633,158 @@ Caused by: java.io.FileNotFoundException: C:\Users\Matthew\Documents\Projects\Si
 2019-09-15 12:22:31,981 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-09-15 12:22:31,982 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-09-15 12:22:31,982 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:01:15,716 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:01:15,719 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:01:15,719 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:01:15,719 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:01:15,719 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:01:23,497 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:01:23,498 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:01:23,500 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:01:23,502 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:01:23,502 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:01:39,788 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:01:39,789 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:01:39,790 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:01:39,793 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:01:39,793 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:01:45,568 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:01:45,570 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:01:45,572 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:01:45,574 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:01:45,575 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:02:04,060 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:02:04,060 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:02:04,063 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:02:04,064 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:02:04,064 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:03:24,413 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:03:24,414 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:03:24,414 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:03:24,419 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:03:24,419 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:04:35,298 [Worker-876: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:04:35,301 [Worker-876: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:04:35,304 [Worker-876: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:04:35,306 [Worker-876: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:04:35,306 [Worker-876: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:04:47,553 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:04:47,554 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:04:47,555 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:04:47,557 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:04:47,557 [Worker-873: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:09:13,821 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:09:13,829 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:09:13,830 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:09:13,831 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:09:13,832 [Worker-877: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:09:48,246 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:09:48,246 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:09:48,253 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:09:48,257 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:09:48,257 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:31:31,870 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:31:31,872 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:31:31,873 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:31:31,874 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:31:31,874 [Worker-880: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:33:25,588 [Worker-885: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:33:25,590 [Worker-885: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:33:25,593 [Worker-885: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:33:25,594 [Worker-885: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:33:25,594 [Worker-885: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:34:22,111 [Worker-889: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:34:22,112 [Worker-889: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:34:22,116 [Worker-889: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:34:22,119 [Worker-889: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:34:22,119 [Worker-889: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:38:28,845 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:38:28,845 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:38:28,845 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:38:28,849 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:38:28,849 [Worker-893: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:46:16,253 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:46:16,255 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:46:16,261 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:46:16,266 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:46:16,266 [Worker-894: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:49:21,323 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:49:21,324 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:49:21,324 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:49:21,334 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:49:21,334 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:50:34,656 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:50:34,656 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:50:34,657 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:50:34,689 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:50:34,689 [Worker-900: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:55:08,408 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:55:08,408 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:55:08,410 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:55:08,414 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:55:08,414 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 19:58:12,108 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:58:12,110 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 19:58:12,112 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 19:58:12,130 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 19:58:12,130 [Worker-875: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:05:37,588 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:05:37,591 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 20:05:37,592 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:05:37,600 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:05:37,600 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:05:41,684 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:05:41,686 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 20:05:41,687 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:05:41,696 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:05:41,697 [Worker-909: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:06:47,788 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:06:47,788 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 20:06:47,790 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:06:47,797 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:06:47,797 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:08:07,247 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:08:07,247 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 20:08:07,248 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:08:07,251 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:08:07,252 [Worker-914: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:08:40,731 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:08:40,732 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-09-18 20:08:40,734 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:08:40,751 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:08:40,752 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:12:37,906 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:12:37,908 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:12:37,911 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:12:37,913 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:12:37,913 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:13:58,363 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:13:58,364 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:13:58,366 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:13:58,368 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:13:58,368 [Worker-912: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:18:47,818 [Worker-918: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:18:47,820 [Worker-918: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:18:47,822 [Worker-918: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:18:47,823 [Worker-918: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:18:47,823 [Worker-918: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:19:37,117 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:19:37,118 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:19:37,120 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:19:37,121 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:19:37,121 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:19:50,719 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:19:50,720 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:19:50,722 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:19:50,723 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:19:50,723 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:20:34,711 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:20:34,713 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:20:34,715 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:20:34,717 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:20:34,717 [Worker-897: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
+2019-09-18 20:27:57,125 [Worker-921: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:27:57,125 [Worker-921: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:27:57,130 [Worker-921: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-09-18 20:27:57,132 [Worker-921: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-18 20:27:57,132 [Worker-921: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources

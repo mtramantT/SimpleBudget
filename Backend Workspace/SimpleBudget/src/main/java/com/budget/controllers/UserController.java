@@ -38,8 +38,8 @@ public class UserController {
 	public Optional<User> findById(@PathVariable Integer userId){
 		return ur.findById(userId);
 	}
-	@GetMapping(value="/{username}")
-	public String findByUsername(@PathVariable String username) {
+	@GetMapping(value="/username/{username}")
+	public User findByUsername(@PathVariable String username) {
 		return ur.findByUsername(username);
 	}
 	
