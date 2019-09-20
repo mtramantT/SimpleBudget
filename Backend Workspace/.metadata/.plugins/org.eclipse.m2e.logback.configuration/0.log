@@ -2212,3 +2212,4 @@ Caused by: java.io.FileNotFoundException: C:\Users\Matthew\Documents\Projects\Si
 2019-09-19 20:54:12,273 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-09-19 20:54:12,275 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-09-19 20:54:12,278 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-19 20:54:12,278 [Worker-155: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matthew\Documents\Projects\SimpleBudget\SimpleBudget\Backend Workspace\SimpleBudget\src\test\resources
