@@ -49,6 +49,9 @@ public class UserController {
 	public Optional<User> findById(@PathVariable Integer userId){
 		return ur.findById(userId);
 	}
+	
+	//Used for custom Validator when registering
+	//TODO: implement async validation
 	@GetMapping(value="/username/{username}")
 	public User findByUsername(@PathVariable String username) {
 		return ur.findByUsername(username);

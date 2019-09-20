@@ -11,6 +11,11 @@ import { User } from 'src/app/Models/User';
 })
 export class LoginComponent implements OnInit {
 
+  constructor(private as:AuthenticationService, private router:Router) { }
+
+  ngOnInit() {
+  }
+  
   form = new FormGroup({
     username: new FormControl('', Validators.required),
     password: new FormControl('', Validators.required)
@@ -29,6 +34,7 @@ export class LoginComponent implements OnInit {
             data.email)
           localStorage.setItem(user.username, JSON.stringify(user))
           this.router.navigate(['home'])
+        .catch()
       })
   }
 
@@ -42,11 +48,6 @@ export class LoginComponent implements OnInit {
   }
   get password(){
     return this.form.get('password')
-  }
-
-  constructor(private as:AuthenticationService, private router:Router) { }
-
-  ngOnInit() {
   }
 
 }

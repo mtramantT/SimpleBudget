@@ -20,9 +20,7 @@ export class AuthenticationService {
 
   login(username:string, password:string){
     var user = new User(username, password);
-    console.log("User: " + JSON.stringify(user))
     var url = "http://localhost:8080/users/login";
-    console.log(url)
     return this.http.post<User>(url, JSON.stringify(user), AuthenticationService.options);
   }
 
