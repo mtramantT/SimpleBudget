@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -21,11 +22,13 @@ import com.budget.repo.UserRepository;
 //@RequestMapping when used above a class will append the indicated mapping to
 //the url path
 @RequestMapping("/users")
+@CrossOrigin
 public class UserController {
 	@Autowired
 	private UserRepository ur;
 	
 	@GetMapping(value="/hello")
+	@ResponseBody
 	public String sayHello() {
 		return "hello";
 	}

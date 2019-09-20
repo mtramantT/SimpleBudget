@@ -31,6 +31,11 @@ export class LoginComponent implements OnInit {
           this.router.navigate(['home'])
       })
   }
+
+  test(){
+    console.log("test function:")
+    this.as.test();
+  }
   
   get username(){
     return this.form.get('username');

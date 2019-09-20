@@ -25,4 +25,9 @@ export class AuthenticationService {
     console.log(url)
     return this.http.post<User>(url, JSON.stringify(user), AuthenticationService.options);
   }
+
+  test(){
+    this.http.get("http://localhost:8080/users/hello", AuthenticationService.options)
+      .subscribe();
+  }
 }
