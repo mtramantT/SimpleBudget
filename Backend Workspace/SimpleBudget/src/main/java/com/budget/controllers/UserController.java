@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.budget.Models.User;
 import com.budget.repo.UserRepo;
+import com.budget.services.Authentication;
 
 //@RestController = @Controller + @ReponseBody
 @RestController
@@ -24,9 +25,15 @@ import com.budget.repo.UserRepo;
 @RequestMapping("/users")
 @CrossOrigin
 public class UserController {
+	
+//	===IMPORTS===
 	@Autowired
 	private UserRepo ur;
 	
+	@Autowired
+	Authentication auth;
+	
+//	===CONTROLLER METHODS ===
 	@GetMapping(value="/hello")
 	@ResponseBody
 	public String sayHello() {
@@ -56,7 +63,12 @@ public class UserController {
 	@PostMapping(value="/login")
 	@ResponseBody
 	public User login(@RequestBody User user) {
-		System.out.println("in controller");
-		return user;
+		User fetchedUser;
+		fetchedUser = auth.fetchUser(user);
+		if(fetchedUser != null) {
+			return fetchedUser;
+		}
+		//TODO: implement custom error to send back
+		return null;
 	}
 }

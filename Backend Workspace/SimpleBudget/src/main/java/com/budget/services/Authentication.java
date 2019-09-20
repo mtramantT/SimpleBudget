@@ -1,11 +1,13 @@
 package com.budget.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.budget.Models.User;
 import com.budget.repo.UserRepo;
 
 //TODO: Implement Logger and clean up code
+@Service
 public class Authentication {
 	
 	@Autowired
