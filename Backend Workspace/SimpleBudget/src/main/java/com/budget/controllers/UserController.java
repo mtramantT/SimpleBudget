@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.budget.Models.User;
-import com.budget.repo.UserRepository;
+import com.budget.repo.UserRepo;
 
 //@RestController = @Controller + @ReponseBody
 @RestController
@@ -25,7 +25,7 @@ import com.budget.repo.UserRepository;
 @CrossOrigin
 public class UserController {
 	@Autowired
-	private UserRepository ur;
+	private UserRepo ur;
 	
 	@GetMapping(value="/hello")
 	@ResponseBody
