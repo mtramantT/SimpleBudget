@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonValidators } from 'src/app/custom-validators/common.validators';
 
 @Component({
-  selector: 'app-register',
+  selector: 'register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
@@ -18,7 +18,7 @@ export class RegisterComponent implements OnInit {
       CommonValidators.cannotContainSpace
     ]),
     'password': new FormControl('', Validators.required),
-    'confrimPassword': new FormControl('', Validators.required)
+    'confirmPassword': new FormControl('', Validators.required)
   });
 
   get username() {

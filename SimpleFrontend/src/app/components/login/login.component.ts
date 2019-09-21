@@ -38,6 +38,9 @@ export class LoginComponent implements OnInit {
       })
   }
 
+  navigateRegister(){
+    this.router.navigate(['register'])
+  }
   test(){
     console.log("test function:")
     this.as.test();

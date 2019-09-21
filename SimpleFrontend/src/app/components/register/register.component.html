@@ -19,7 +19,10 @@
             id="password"
             type="text" 
             class="form_control">
-        <div class="alert alert-danger">Password is required!</div>
+        <div *ngIf="password.touched && password.invalid" class="alert alert-danger">
+            <div *ngIf="password.errors.required">A password is required</div>
+        </div>
+        
     </div>
     <div class="form_group">
         <label for="confirmPassword">Confirm Password</label>
@@ -28,7 +31,9 @@
             id="confirmPassword"
             type="text" 
             class="form_control">
-        <div class="alert alert-danger"></div>
+        <div *ngIf="confirmPassword.touched && confirmPassword.invalid" class="alert alert-danger">
+            <div *ngIf="confirmPassword.errors.required">Please confirm your password.</div>
+        </div>
     </div>
     <button class="btn btn-primary">Register</button>
 </form>
