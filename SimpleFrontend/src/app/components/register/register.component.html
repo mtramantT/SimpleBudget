@@ -1,39 +1,64 @@
 <form action="" [formGroup]="form" method="POST">
-    <div class="form_group">
+    <div class="form-group">
         <label for="username">Username</label>
         <input 
             formControlName="username"
             id="username"
             type="text" 
-            class="form_control">
+            class="form-control">
         <div *ngIf="username.touched && username.invalid" class="alert alert-danger">
                 <div *ngIf="username.errors.required">Username is required!</div>
                 <div *ngIf="username.errors.minLength">Username should be minimum {{username.errors.minLength.requiredLength}} characters!</div>
                 <div *ngIf="username.errors.cannotContainSpace">Username cannotContainSpace!</div>
         </div>
     </div>
-    <div class="form_group">
+    <div class="form-group">
         <label for="password">Password</label>
         <input 
             formControlName="password"
             id="password"
             type="text" 
-            class="form_control">
+            class="form-control">
         <div *ngIf="password.touched && password.invalid" class="alert alert-danger">
             <div *ngIf="password.errors.required">A password is required</div>
         </div>
         
     </div>
-    <div class="form_group">
+    <div class="form-group">
         <label for="confirmPassword">Confirm Password</label>
         <input 
             formControlName="confirmPassword"
             id="confirmPassword"
             type="text" 
-            class="form_control">
+            class="form-control">
         <div *ngIf="confirmPassword.touched && confirmPassword.invalid" class="alert alert-danger">
             <div *ngIf="confirmPassword.errors.required">Please confirm your password.</div>
         </div>
     </div>
-    <button class="btn btn-primary">Register</button>
+    <br>
+    <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input 
+            formControlName="firstName"
+            id="lastName"
+            type="text"
+            class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input
+            formControlName="lastName"
+            id="lastName"
+            type="text"
+            class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input 
+            formControlName="email"
+            id="email"
+            type="text"
+            class="form-control">
+        </div>
+    <button class="btn btn-primary" (click)="register()">Register</button>
 </form>

@@ -24,6 +24,11 @@ export class AuthenticationService {
     return this.http.post<User>(url, JSON.stringify(user), AuthenticationService.options);
   }
 
+  register(user:User){
+    var url = AuthenticationService.baseURL + "/save"
+    this.http.post<User>(url, JSON.stringify(user), AuthenticationService.options)
+  }
+  
   test(){
     this.http.get("http://localhost:8080/users/hello", AuthenticationService.options)
       .subscribe();
