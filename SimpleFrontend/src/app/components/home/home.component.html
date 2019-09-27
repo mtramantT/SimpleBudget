@@ -1,7 +1,7 @@
 <div class="jumbotron">
     <h1>{{username}}! Welcome to SimpleBudget!</h1>
 </div>
-<div class="input-group">
+<!-- <div class="input-group">
     <input 
     placeholder="yyyy-mm-dd"
     class="form-control"
@@ -11,4 +11,8 @@
 </div>
 <div class="input-group-append">
     <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button"></button>
+  </div> -->
+  <div>
+      <button class="btn btn-primary" (click)="openEDialog()">Add Expense</button>
+      <button class="btn btn-primary" (click)="goToBudget()">Go to Budget</button>
   </div>
