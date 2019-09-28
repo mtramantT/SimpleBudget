@@ -1,12 +1,57 @@
 <h2 mat-dialog-title>Add Expense</h2>
 <form [formGroup]="form" (ngSubmit)="submit(form)">
     <mat-dialog-content>
-        <mat-form-field>
-            <input matInput formControlName="testField">
-        </mat-form-field>
+
+        <div class="formGroup">
+            <mat-form-field>
+                <input 
+                    matInput 
+                    formControlName="testField"
+                    placeholder="Expense Name">
+            </mat-form-field>
+        </div>
+
+        <div class="formGroup">
+            <mat-form-field>
+                <mat-select 
+                    placeholder="Select Period"
+                    formControlName="period">
+                    <mat-option 
+                        value="One-Time">
+                        One-Time
+                    </mat-option>
+                    <mat-option 
+                        value="Weekly">
+                        Weekly
+                    </mat-option>
+                    <mat-option 
+                        value="Monthly">
+                        Monthly
+                    </mat-option>                
+                </mat-select>               
+            </mat-form-field>
+        </div>
+
+        <div class="formGroup">
+            <mat-form-field>
+                <input matInput [matDatepicker]="picker" placeholder="Start Date" formControlName="testDatepicker">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+        </div>
     </mat-dialog-content>
+
     <mat-dialog-actions>
-        <button mat-button type="submit">Submit</button>
-        <button mat-button type="button" mat-dialog-close>Cancel</button>
+        <button 
+            mat-button 
+            type="submit"
+            class="mat-raised-button btn-primary">
+            Submit
+        </button>
+        <button
+            mat-button 
+            type="button" 
+            class="mat-raised-button"
+            mat-dialog-close>Cancel</button>
     </mat-dialog-actions>
 </form>

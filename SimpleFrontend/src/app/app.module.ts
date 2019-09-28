@@ -2,7 +2,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { MatDialogModule, MatFormFieldModule, MatInputModule } from '@angular/material'
+import {
+    MatDialogModule,
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatDatepickerModule, 
+    MatNativeDateModule, 
+    MatSelectModule } from '@angular/material'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -37,10 +43,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatDialogModule,
     MatFormFieldModule,
     MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatSelectModule,
     BrowserAnimationsModule,
     NgbModule
   ],
-  providers: [],
+  providers: [
+    MatDatepickerModule
+  ],
   bootstrap: [AppComponent],
   entryComponents: [ExpenseDialogComponent]
 })

@@ -15,7 +15,9 @@ export class ExpenseDialogComponent implements OnInit {
 
   ngOnInit() {
     this.form = this.fb.group({
-      testField: ''
+      testField: '',
+      testDatepicker: '',
+      period: ''
     });
   }
 
