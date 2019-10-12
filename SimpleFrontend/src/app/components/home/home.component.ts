@@ -12,20 +12,23 @@ import { ExpenseDialogComponent } from '../dialogs/expense-dialog/expense-dialog
 export class HomeComponent implements OnInit {
 
   user: User;
+  username:String
   eDialogRef: MatDialogRef<ExpenseDialogComponent>;
+  
 
   constructor(private router:Router, private eDialog:MatDialog) {
   }
 
   ngOnInit() {
-    // var userIndexKey = localStorage.key(1);
-    // this.user = JSON.parse(localStorage.getItem(userIndexKey));
+    var key = localStorage.key(0);
+    this.user = JSON.parse(localStorage.getItem(key));
+    this.setUsername(this.user);
+  }
+  
+  setUsername(user:User){
+    this.username = this.user['username']
   }
 
-  // get username(){
-  //   return this.user.username;
-  // }
-  
   goToBudget(){
     this.router.navigate(['budget'])
   }

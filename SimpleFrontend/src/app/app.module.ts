@@ -17,7 +17,6 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { IncomeFormComponent } from './components/income-form/income-form.component';
 import { BudgetComponent } from './components/budget/budget.component';
 import { ExpenseDialogComponent } from './components/dialogs/expense-dialog/expense-dialog.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -30,7 +29,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     RegisterComponent,
     HomeComponent,
     NavbarComponent,
-    IncomeFormComponent,
     BudgetComponent,
     ExpenseDialogComponent
   ],

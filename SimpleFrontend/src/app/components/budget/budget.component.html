@@ -1,1 +1,15 @@
 <p>budget works!</p>
+<div>
+    <table>
+        <tr>
+            <th>Expense Name</th>
+            <th>Amount</th>
+            <th>Due Date</th>
+        </tr>
+        <tr *ngFor="let Expense of Expenses">
+            <td>{{Expense.name}}</td>
+            <td>{{Expense.amount}}</td>
+            <td>{{Expense.date}}</td>
+        </tr>
+    </table>
+</div>
